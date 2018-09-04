@@ -4,8 +4,8 @@ using UnrealBuildTool;
 
 public class CISQLite3 : ModuleRules
 {
-  public CISQLite3(TargetInfo Target)
-  {
+  public CISQLite3(ReadOnlyTargetRules Target) : base(Target)
+    {
     
     PublicIncludePaths.AddRange(
       new string[] {
